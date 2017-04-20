@@ -3,34 +3,39 @@
 .theme-base-10 .sidebar {
   background-color: #455a64;
 }
-
 .theme-base-10 .content a, .theme-base-10 .related-posts li a:hover {
   color: #1c313a;
+}
+
+.content {
+  padding-top: 0;
 }
 
 .top-nav-bar {
   font-size: 1.25rem;
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   font-family: "Poppins", serif;
 }
-.content {
-  padding-top: 2rem;
-}
-
 @media (min-width: 48em) {
   .top-nav-bar {
     text-align: left;
-    padding-bottom: 4rem;
-  }
-  .content {
-    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
   }
 }
 
 .top-nav-bar a {
-  text-decoration: none;
   margin: 0 0.5rem;
+}
+
+.top-nav-bar a:first-of-type {
+  margin-left: 0;
+}
+
+.top-nav-bar a:last-of-type {
+  margin-right: 0;
 }
 
 .top-nav-bar a.active {
