@@ -4,12 +4,22 @@
     - title: Dyne
       url: projects/dyne/
       image_url: http://dyne.ml/screenshot.png
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      links:
+        - text: Github
+          url: https://github.com/DanielCoutts/Dyne
+        - text: Google Play Store
+          url: https://play.google.com/store/apps/details?id=com.team18.teamproject
 
     - title: Dyne 2
       url: projects/dyne2/
-      image_url: http://dyne.ml/screenshot.png
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      image_url: http://dyne.ml/logo.png
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      links:
+        - text:
+          url:
+        - text:
+          url:
 
 
 # ADD TUTORIALS SECTION WHEN I ACTUALLY HAVE TUTORIALS
