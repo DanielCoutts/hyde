@@ -3,4 +3,4 @@ layout: page
 title: About Me
 ---
 
-<h4>Info Stuff coming here soon!</h4>
+<h4>Placeholder</h4>

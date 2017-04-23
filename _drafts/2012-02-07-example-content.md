@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Placeholder Post
+title: Example content
 ---
 
 

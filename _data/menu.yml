@@ -1,7 +1,7 @@
 - title: Projects
   url: projects/
   projects:
-    - title: Dyne
+    - title: Placeholder Project
       # url: projects/dyne/
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       images:
@@ -9,12 +9,12 @@
         - http://placehold.it/200x400
         - http://placehold.it/200x400
       links:
-        - text: Github
-          url: https://github.com/DanielCoutts/Dyne
-        - text: Google Play Store
-          url: https://play.google.com/store/apps/details?id=com.team18.teamproject
+        - text: View on Github
+          url: https://github.com/DanielCoutts/
+        # - text: Google Play Store
+        #   url: https://play.google.com/store/apps/details?id=com.team18.teamproject
 
-    - title: Dyne 2
+    - title: Placeholder project 2
       # url: projects/dyne2/
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       images:
@@ -22,15 +22,15 @@
         - http://placehold.it/200x200
         - http://placehold.it/200x200
       links:
-        - text: Github
-          url: https://github.com/DanielCoutts/Dyne
-    - title: Projecto
+        - text: View on Github
+          url: https://github.com/DanielCoutts/
+    - title: Placeholder project 3
       # url: projects/
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       images:
         - http://placehold.it/800x200
       links:
-        - text: Github
+        - text: View on Github
           url: https://github.com/DanielCoutts/
 
 
