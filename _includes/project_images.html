@@ -1,0 +1,7 @@
+{% assign images = include.images %}
+
+<div class="project-images">
+  {% for image in images %}
+  <div><img src="{{ image }}"/></div>
+  {% endfor %}
+</div>

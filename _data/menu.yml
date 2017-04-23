@@ -2,9 +2,12 @@
   url: projects/
   projects:
     - title: Dyne
-      url: projects/dyne/
-      image_url: http://dyne.ml/screenshot.png
+      # url: projects/dyne/
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      images:
+        - http://placehold.it/200x400
+        - http://placehold.it/200x400
+        - http://placehold.it/200x400
       links:
         - text: Github
           url: https://github.com/DanielCoutts/Dyne
@@ -12,12 +15,23 @@
           url: https://play.google.com/store/apps/details?id=com.team18.teamproject
 
     - title: Dyne 2
-      url: projects/dyne2/
-      image_url: http://dyne.ml/logo.png
+      # url: projects/dyne2/
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      images:
+        - http://placehold.it/200x200
+        - http://placehold.it/200x200
+        - http://placehold.it/200x200
       links:
         - text: Github
           url: https://github.com/DanielCoutts/Dyne
+    - title: Projecto
+      # url: projects/
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      images:
+        - http://placehold.it/800x200
+      links:
+        - text: Github
+          url: https://github.com/DanielCoutts/
 
 
 # ADD TUTORIALS SECTION WHEN I ACTUALLY HAVE TUTORIALS
