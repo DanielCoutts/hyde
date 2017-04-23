@@ -5,7 +5,7 @@ layout: default
 {% assign tutorial = null %}
 {% for node in site.data.menu %}
   {% if node.title == "Tutorials" %}
-    {% for item in node.subitems %}
+    {% for item in node.tutorials %}
       {% if item.title == page.title %}
         {% assign tutorial = item %}
       {% endif %}

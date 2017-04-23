@@ -1,17 +1,19 @@
 ---
 layout: default
 ---
-{% assign project = null %}
+
 {% for node in site.data.menu %}
   {% if node.title == "Projects" %}
-    {% for item in node.subitems %}
+    {% for item in node.projects %}
       {% if item.title == page.title %}
         {% assign project = item %}
+        <div class="page">
+
+          {% include project_summary.html project=project %}
+
+          {{ content }}
+        </div>
       {% endif %}
     {% endfor %}
   {% endif %}
 {% endfor %}
-
-<div class="page">
-  {{ content }}
-</div>

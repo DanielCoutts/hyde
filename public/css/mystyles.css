@@ -46,7 +46,7 @@
   font-weight: bold;
 }
 
-/* Project summary CSS */
+/* Project Summary CSS */
 .project-summary {
   margin-bottom: 1rem;
   text-align: justify;
@@ -84,7 +84,8 @@
   vertical-align: top;
 }
 
-.project-summary ul {
+/* Project Links CSS */
+.project-links {
   list-style: none;
   padding: 1rem 0;
   clear: left;
@@ -93,10 +94,7 @@
   border-top: 1px solid #eee;
   margin-top: 1rem;
 }
-.project-summary ul li {
+.project-links li {
   display: inline-block;
   padding: 0.5rem;
-}
-.project-summary ul li a {
-
 }
