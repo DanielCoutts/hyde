@@ -12,6 +12,9 @@ layout: default
           {% include project_summary.html project=project %}
 
           {{ content }}
+
+          {% include project_links.html links=project.links %}
+
         </div>
       {% endif %}
     {% endfor %}

@@ -56,7 +56,7 @@
 }
 @media (min-width: 48em) {
   .project-summary {
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
   }
 }
 
@@ -78,11 +78,11 @@
   margin: 0;
 }
 
-.project-summary div {
+/*.project-summary div {
   width: 100%;
   display: inline-block;
   vertical-align: top;
-}
+}*/
 
 /* Project Links CSS */
 .project-links {

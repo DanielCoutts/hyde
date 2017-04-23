@@ -1,0 +1,7 @@
+{% assign links = include.links %}
+
+<ul class="project-links">
+  {% for link in project.links %}
+  <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+  {% endfor %}
+</ul>
