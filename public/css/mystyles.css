@@ -17,12 +17,16 @@
   padding-bottom: 1rem;
   padding-top: 1rem;
   font-family: "Poppins", serif;
+
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1rem;
 }
 @media (min-width: 48em) {
   .top-nav-bar {
     text-align: left;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
 
