@@ -1,0 +1,16 @@
+- title: Home
+  url: /
+
+- title: Projects
+  url: /projects/
+  subitems:
+    - title: Dyne
+      url: /projects/dyne/
+    - title: Dyne 2
+      url: /projects/dyne2/
+
+- title: Tutorials
+  url: /tutorials/
+  subitems:
+    - title: Sample Tutorial
+      url: /tutorials/sample/

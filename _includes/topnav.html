@@ -1,17 +1,5 @@
 <nav class="top-nav-bar">
-  <a class="{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-
-      {% for category in site.categories %}
-        <a class="active" href="google.co.uk">TEST</a>
-      {% endfor %}
-
+    {% for node in site.data.menu %}
+      <a class="{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+    {% endfor %}
 </nav>

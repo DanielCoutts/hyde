@@ -11,7 +11,7 @@ relative_permalinks: false
 # Setup
 title:            Daniel Coutts
 tagline:          Developer
-description:      I am 3rd year computer science student at Newcastle University, and I am currently working as an Android app developer at <a href="https://gospelware.co.uk" target="_blank">Gospelware</a>.
+description:      I am 3rd year computer science student at Newcastle University, and I am currently working as an Android app developer at Gospelware.
 # url:              http://hyde.getpoole.com
 baseurl:          /
 
@@ -24,4 +24,4 @@ paginate:         5
 github:           https://github.com/DanielCoutts
 linkedin:         https://linkedin.com/in/daniel-coutts-b4401282
 twitter:          https://twitter.com/elasticdonut
-cv:               public/CV.pdf
+cv:               assets/CV.pdf

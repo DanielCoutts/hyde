@@ -1,9 +1,14 @@
 ---
 layout: page
 title: Tutorials
-tag: tutorial
 ---
 
-<h4>Stuff coming here soon!</h4>
+{% for node in site.data.menu %}
+  {% if node.title == "Tutorials" %}
+    {% for tutorial in node.subitems %}
 
-{% include posts_with_tag.html %}
+* {{ tutorial.title }}
+
+    {% endfor %}
+  {% endif %}
+{% endfor %}
