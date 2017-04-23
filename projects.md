@@ -5,12 +5,10 @@ title: Projects
 
 {% for node in site.data.menu %}
   {% if node.title == "Projects" %}
-    {% for project in node.subitems %}
+    {% for project in node.projects %}
 
-{% include project_summary.html title="Dyne" image_url="http://placehold.it/200x200" description="test" %}
+{% include project_summary.html project=project %}
 
     {% endfor %}
   {% endif %}
 {% endfor %}
-
-<!-- {% include posts_with_tag.html %} -->

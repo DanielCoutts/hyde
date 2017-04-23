@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
+{% assign project = null %}
+{% for node in site.data.menu %}
+  {% if node.title == "Projects" %}
+    {% for item in node.subitems %}
+      {% if item.title == page.title %}
+        {% assign project = item %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
 
 <div class="page">
   {{ content }}

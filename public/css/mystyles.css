@@ -1,5 +1,4 @@
 /* My Theme */
-
 .theme-base-10 .sidebar {
   background-color: #455a64;
 }
@@ -7,6 +6,7 @@
   color: #1c313a;
 }
 
+/* Nav bar CSS */
 .content {
   padding-top: 0;
 }
@@ -44,4 +44,54 @@
 
 .top-nav-bar a.active {
   font-weight: bold;
+}
+
+/* Project summary CSS */
+.project-summary {
+  margin-bottom: 1rem;
+  text-align: justify;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.project-summary img {
+  display: none;
+  vertical-align: top;
+  margin: 0;
+  float: left;
+  width: 25%
+}
+@media (min-width: 68em) {
+  .project-summary img {
+    display: inline-block;
+  }
+}
+
+.project-summary h1 {
+  margin: 0;
+}
+
+.project-summary div {
+  height: 100%
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+@media (min-width: 68em) {
+  .project-summary div {
+    padding-left: 1rem;
+    width: 75%
+  }
+}
+
+.project-summary ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-summary p {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }

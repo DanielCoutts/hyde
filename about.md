@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Tutorials
-tag: tutorial
+title: About Me
 ---
 
 <h4>Info Stuff coming here soon!</h4>

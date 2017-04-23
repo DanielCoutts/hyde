@@ -1,5 +1,13 @@
-<div class="project_summary">
-  <h1>{{ include.title }}</h3>
-  <img src="{{ include.image_url }}" alt="image" />
-  <p>{{ include.description }}</p>
+<div class="project-summary">
+
+  <img src="{{ include.project.image_url }}" alt="image" />
+
+  <div>
+    <h1>{{ include.project.title }}</h3>
+    <p>{{ include.project.description }}</p>
+    <ul>
+      <li><a>View on Google Play Store</a></li>
+      <li><a>View project on GitHub</a></li>
+    </ul>
+  </div>
 </div>

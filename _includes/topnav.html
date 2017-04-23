@@ -1,5 +1,9 @@
 <nav class="top-nav-bar">
+    <a class="{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+
     {% for node in site.data.menu %}
-      <a class="{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+      {% assign url = site.baseurl | append: node.url %}
+
+      <a class="{% if page.url == url %} active{% endif %}" href="{{ url }}">{{ node.title }}</a>
     {% endfor %}
 </nav>

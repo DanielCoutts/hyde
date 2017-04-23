@@ -5,7 +5,7 @@ title: Tutorials
 
 {% for node in site.data.menu %}
   {% if node.title == "Tutorials" %}
-    {% for tutorial in node.subitems %}
+    {% for tutorial in node.tutorials %}
 
 * {{ tutorial.title }}
 

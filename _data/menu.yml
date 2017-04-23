@@ -1,16 +1,26 @@
-- title: Home
-  url: /
-
 - title: Projects
-  url: /projects/
-  subitems:
+  url: projects/
+  projects:
     - title: Dyne
-      url: /projects/dyne/
-    - title: Dyne 2
-      url: /projects/dyne2/
+      url: projects/dyne/
+      image_url: http://dyne.ml/screenshot.png
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 
-- title: Tutorials
-  url: /tutorials/
-  subitems:
-    - title: Sample Tutorial
-      url: /tutorials/sample/
+    - title: Dyne 2
+      url: projects/dyne2/
+      image_url: http://dyne.ml/screenshot.png
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+# ADD TUTORIALS SECTION WHEN I ACTUALLY HAVE TUTORIALS
+
+# - title: Tutorials
+#   url: tutorials/
+#   tutorials:
+#     - title: Sample Tutorial
+#       url: tutorials/sample/
+
+
+# REMOVE THIS WHEN I ACTUALLY HAVE TUTORIALS
+- title: About Me
+  url: about/
